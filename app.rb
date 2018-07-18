@@ -12,5 +12,6 @@ class App < Sinatra::Base
 
   get '/favourite-song' do
     "My favourite song is Primavera"
+    resp.status = 200
   end
 end
